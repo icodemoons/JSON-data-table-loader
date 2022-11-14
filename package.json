@@ -1,0 +1,41 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "axios": "^1.1.3",
+    "next": "12.3.1",
+    "next-connect": "^1.0.0-next.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "concurrently": "^7.5.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "fileserver.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icodemoons/next-tailwind-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icodemoons/next-tailwind-starter/issues"
+  },
+  "homepage": "https://github.com/icodemoons/next-tailwind-starter#readme"
+}

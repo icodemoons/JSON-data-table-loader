@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white bg-gray-900;
+}
+
+h1 {
+  @apply text-5xl prose-2xl prose-invert;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+input.visually-hidden:is(:focus, :focus-within) + label {
+  outline: thin dotted;
+}
