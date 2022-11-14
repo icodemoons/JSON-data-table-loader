@@ -16,7 +16,7 @@ export function Upload({}) {
     <>
       <div className="mt-10 ">
         <p className="text-xl pb-5">
-          Upload your JSON file select your column[key] order.
+          Upload your JSON file and rearrange the column order.
         </p>{" "}
         <input type="file" onChange={handleChange} />
         <p>{JSONFile}</p>
