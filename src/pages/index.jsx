@@ -2,7 +2,7 @@ import { useState } from "react";
 import Datatable from "ui/data-table";
 import TextField from "ui/text-field";
 
-import { Upload } from "ui/uploader";
+import { Uploader } from "ui/uploader";
 const array = [
   {
     _id: "6362c6583c8d28b7b3494d2a",
@@ -110,7 +110,7 @@ export default function Homepage({}) {
   return (
     <div className="mt-16 container mx-auto">
       <div className="border px-4 items-center w-full gap-3">
-        <Upload>
+        <Uploader>
           {columns.map((column) => (
             <>
               <div className="p-5" key={column} />
@@ -127,7 +127,7 @@ export default function Homepage({}) {
               />
             </>
           ))}
-        </Upload>
+        </Uploader>
         {columns.map((column) => (
           <>
             <div key={column} />
