@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function Upload({}) {
+export function Uploader({}) {
   const [JSONFile, setJSONFile] = useState("");
 
   const handleChange = (e) => {

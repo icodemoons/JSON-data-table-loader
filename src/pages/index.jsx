@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Datatable from "ui/data-table";
 import TextField from "ui/text-field";
-
 import { Uploader } from "ui/uploader";
+
 const array = [
   {
     _id: "6362c6583c8d28b7b3494d2a",
@@ -146,6 +146,7 @@ export default function Homepage({}) {
           </>
         ))}{" "}
       </div>
+
       <div className="flex flex-col mx-auto w-full">
         <div className="flex flex-col mx-auto w-1/2 pt-10">
           <p className="mx-auto text-lg text-yellow-300 p-5 ">
